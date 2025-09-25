@@ -12,7 +12,7 @@ const MyHeader = () => { {/*Creiamo la costante per l'header*/}
                     <nav>
                         <ul className="navSite">
                             {navUpper.map ((navUp, index) => ( 
-                                <li>{navUp}</li>
+                                <li keys={index}>{navUp}</li>
                             ))}
                         </ul>
                     </nav>
