@@ -1,7 +1,35 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Open Sans";
 }
 
+/*Header*/
+.fullHeaderContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.fullHeaderContainer li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/*Jumbotron*/
+.jumbotron {
+  background-image: url("./img/jumbotron.jpg");
+  background-size: cover;
+  height: 320px;
+}
+
+/*Main content*/
+
+/*Main info*/
+
+/*Navbar finale*/
+
+/*Footer*/

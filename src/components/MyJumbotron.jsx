@@ -1,3 +1,10 @@
-export default function MyJumbotron() {
-return (<header><h1>Sono il Jumbotron</h1></header>);
-}
+const MyJumbotron = () => {
+
+    return (
+        <>
+            <div className="jumbotron"></div>
+        </>   
+    );
+};
+
+export default MyJumbotron;
