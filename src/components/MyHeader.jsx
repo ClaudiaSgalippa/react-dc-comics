@@ -22,4 +22,4 @@ const MyHeader = () => { {/*Creiamo la costante per l'header*/}
     )
 }; {/*Abbiamo usato Map per creare un nuovo array che contiene gli <li> */}
 
-export default MyHeader;
+export default MyHeader

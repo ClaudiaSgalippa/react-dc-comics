@@ -10,6 +10,6 @@ const MyMainContent = () => {
             </div>
         </>
     )
-};
+}; {/*Abbiamo creato il container per le card e le abbiamo inserite all'interno, aggiungendo il bottone */}
 
-export default MyMainContent;
+export default MyMainContent
