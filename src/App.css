@@ -14,9 +14,14 @@
   align-items: center; 
 }
 
+.fullHeaderContainer img {
+  padding: 20px;
+}
+
 .fullHeaderContainer li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 15px;
+  font-weight: bold;
 }
 
 /*Jumbotron*/

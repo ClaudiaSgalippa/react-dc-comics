@@ -19,7 +19,7 @@ const MyHeader = () => { {/*Creiamo la costante per l'header*/}
                 </div>
             </header>
         </>
-    );
+    )
 }; {/*Abbiamo usato Map per creare un nuovo array che contiene gli <li> */}
 
 export default MyHeader;

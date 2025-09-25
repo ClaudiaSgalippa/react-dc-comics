@@ -4,7 +4,7 @@ const MyJumbotron = () => {
         <>
             <div className="jumbotron"></div>
         </>   
-    );
-};
+    )
+}
 
 export default MyJumbotron;

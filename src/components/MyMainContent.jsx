@@ -1,3 +1,15 @@
-export default function MyMainContent() {
- return (<main><h1>Sono il Main</h1></main>);
- }
+import MyComics from "./product/MyComics"; {/*Importiamo l'array di fumetti*/}
+
+const MyMainContent = () => {
+
+    return (
+        <>
+            <div className="mainContent">
+                    <MyComics />
+                    <a href="#"><button>LOAD MORE</button></a>
+            </div>
+        </>
+    )
+};
+
+export default MyMainContent;
