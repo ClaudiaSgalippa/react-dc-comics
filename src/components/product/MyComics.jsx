@@ -165,6 +165,6 @@ const MyComics = () => { {/*Creiamo la costante per il MainContent*/}
             ))}
         </>
     )
-}; {/*Abbiamo usato Map per creare un array con le card dei fumetti */}
+}; {/*Abbiamo usato Map per creare un array con le card dei fumetti*/}
 
 export default MyComics
