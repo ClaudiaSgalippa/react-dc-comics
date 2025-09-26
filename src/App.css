@@ -25,7 +25,7 @@
   letter-spacing: -2px;
 }
 
-.noColor {
+.noColorUp {
   color: #303030;
 }
 
@@ -103,8 +103,32 @@
 }
 
 /*Navbar finale*/
+.allLinksSites {
+  background-image: url(./img/dc-logo-bg.png), url(./img/footer-bg.jpg);
+  background-size: 40%, cover;
+  background-repeat: no-repeat;
+  background-position: 90%, center;
+  background-attachment: local, local;
+  padding-left: 150px;
+  padding-block: 100px;
+}
 
+.containerSites {
+  display: flex;
+}
 
+.containerSites h2 {
+  color: white;
+}
+
+.justForPadding {
+  padding-right: 50px;
+}
+
+.noColorDown {
+  color: #646F68;
+  font-weight: bold;
+}
 
 /*Footer*/
 footer {
