@@ -97,8 +97,33 @@
 footer {
   display: flex;
   background-color: #303030;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   height: 100px;
+}
+
+.footerLeft button {
+  font-weight: 700;
+  color: white;
+  border: 3px solid #0282f9;
+  background-color: #303030;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footerRight {
+  display: flex;
+  align-items: center;
+}
+
+.footerRight span {
+  font-weight: 700;
+  color: #0282F9;
+  padding: 10px;
+}
+
+.footerRight img {
+  padding: 10px;
 }
 
 
