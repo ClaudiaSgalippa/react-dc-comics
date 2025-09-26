@@ -25,6 +25,10 @@
   letter-spacing: -2px;
 }
 
+.noColor {
+  color: #303030;
+}
+
 /*Jumbotron*/
 .jumbotron {
   background-image: url("./img/jumbotron.jpg");

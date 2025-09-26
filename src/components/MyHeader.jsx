@@ -8,11 +8,11 @@ const MyHeader = () => { {/*Creiamo la costante per l'header*/}
         <>
             <header>
                 <div className="fullHeaderContainer">
-                    <img className="logo" src={logoDC} alt="Logo DC" />
+                    <a href="#"><img className="logo" src={logoDC} alt="Logo DC" /></a>                    
                     <nav>
                         <ul className="navSite">
                             {navUpper.map ((navUp, index) => ( 
-                                <li><a keys={index}>{navUp}</a></li>
+                                <li><a href="#" className="noColor" keys={index}>{navUp}</a></li>
                             ))}
                         </ul>
                     </nav>
