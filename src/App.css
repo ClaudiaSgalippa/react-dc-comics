@@ -75,8 +75,20 @@
 .infoSection {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 150px;
   background-color: #0282F9;
   color: white;
+  font-size: small;
+}
+
+.infoSection img {
+  height: 50px;
+  width: 40px; 
+}
+
+.allTogheter {
+  padding: 10px
 }
 
 /*Navbar finale*/
@@ -84,10 +96,11 @@
 /*Footer*/
 footer {
   display: flex;
-  height: 100px;
   background-color: #303030;
   justify-content: space-between;
+  height: 100px;
 }
+
 
 
 
