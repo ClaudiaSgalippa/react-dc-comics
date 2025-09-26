@@ -88,6 +88,12 @@
 }
 
 .allTogheter {
+  display: flex;
+  align-items: center;
+  padding: 20px
+}
+
+.textInfo {
   padding: 10px
 }
 

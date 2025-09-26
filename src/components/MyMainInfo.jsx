@@ -44,7 +44,8 @@ const MyMainInfo = () => {
             <section className="infoSection">
                 {infos.map ((info, index) => (
                     <div className="allTogheter" key={index}>
-                        <a><img src={info.src} alt={info.alt} /> {info.text}</a>
+                        <a><img src={info.src} alt={info.alt} /></a>
+                        <a><span className="textInfo"> {info.text}</span></a>                        
                     </div>
                     ))
                 }
