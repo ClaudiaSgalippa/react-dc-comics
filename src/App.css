@@ -22,6 +22,7 @@
   display: inline-block;
   margin-right: 15px;
   font-weight: bold;
+  letter-spacing: -2px;
 }
 
 /*Jumbotron*/
@@ -34,29 +35,44 @@
 /*Main content*/
 .mainContent {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #1C1C1C;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+  padding: 20px;
 }
 
 .card {
-  width: calc((100% / 7) - 10px);
+  flex: 1 1 calc(15% - 20px);
+  max-width: calc(15% - 20px);
   height: 220px;
   margin: 10px;
   overflow: hidden;
-  margin-bottom: 30px;
 }
 
 .card img {
   width: 100%;
   height: 150px;
   overflow: hidden;
+  object-fit: cover;
 }
 
-
+.mainContent button {
+  background-color: #0282F9;
+  color: white;
+  border: 0;
+  padding-inline: 30px;
+  padding-block: 20px;
+  width: 150px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  cursor: pointer;
+}
 
 /*Main info*/
+
 
 /*Navbar finale*/
 
