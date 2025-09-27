@@ -1,3 +1,5 @@
+import MyCard from "./MyCard.jsx";
+
 const comics = [
     {
         id: 1,
@@ -157,11 +159,8 @@ const MyComics = () => { {/*Creiamo la costante per il MainContent*/}
 
     return (
         <>
-            {comics.map ((comic) => (
-                <div key={comic.id} className="card">
-                    <img src={comic.thumb} alt={comic.title} />
-                    <div>{comic.series}</div>
-                </div>
+            {comics.map (comic => (
+                <MyCard key={comic.id} comicProp={comic} />
             ))}
         </>
     )
